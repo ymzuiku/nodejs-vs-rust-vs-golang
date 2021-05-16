@@ -27,4 +27,8 @@ func main() {
 	t2 := time.Now()
 	fib64(42)
 	fmt.Println(time.Now().Sub(t2))
+
+	// t3 := time.Now()
+	// fib64(42.1) // 42.1 会溢出
+	// fmt.Println(time.Now().Sub(t3))
 }

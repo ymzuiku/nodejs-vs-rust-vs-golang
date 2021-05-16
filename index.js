@@ -17,10 +17,6 @@ async function start() {
   await new Promise(res=>setTimeout(res, 200));
 
   console.time("js");
-  fibonacci(42);
-  console.timeEnd("js");
-
-  console.time("js");
   fibonacci(42.0);
   console.timeEnd("js");
 }

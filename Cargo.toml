@@ -5,8 +5,8 @@ license = "ISC"
 name = "my-neon-project"
 version = "0.1.0"
 
-# [lib]
-# crate-type = ["cdylib"]
+[lib]
+crate-type = ["cdylib"]
 
 [dependencies.neon]
 default-features = false
