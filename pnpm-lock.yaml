@@ -1,0 +1,22 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@types/node': ^15.3.0
+  cargo-cp-artifact: ^0.1
+
+dependencies:
+  '@types/node': 15.3.0
+
+devDependencies:
+  cargo-cp-artifact: 0.1.4
+
+packages:
+
+  /@types/node/15.3.0:
+    resolution: {integrity: sha512-8/bnjSZD86ZfpBsDlCIkNXIvm+h6wi9g7IqL+kmFkQ+Wvu3JrasgLElfiPgoo8V8vVfnEi0QVS12gbl94h9YsQ==}
+    dev: false
+
+  /cargo-cp-artifact/0.1.4:
+    resolution: {integrity: sha512-34yUas8aUENHGdk6JhLkV4ol0GLtP78YgqpsRDmmnpADy9JoTg/DgKM3CRHAeozTRNhKoPaRFhV+BxoqkmoKUA==}
+    hasBin: true
+    dev: true
